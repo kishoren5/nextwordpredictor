@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Next Word Predictor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Next Word Predictor</h1>
+        <p>Type a sentence and see the most probable next words.</p>
+        <div class="input-area">
+            <textarea id="sentenceInput" placeholder="Start typing your sentence here..."></textarea>
+            <div id="suggestions" class="suggestions">
+                <!-- Suggestions will appear here -->
+            </div>
+        </div>
+        <button id="predictButton">Predict Next Word</button>
+        <div class="output-area">
+            <p><strong>Predicted Next Words:</strong></p>
+            <ul id="predictionList">
+                <!-- Predictions will be appended here -->
+            </ul>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

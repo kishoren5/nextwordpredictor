@@ -1,0 +1,4 @@
+This is an example sentence for next word prediction.
+Deep learning is a powerful technique.
+Natural language processing is a fascinating field.
+We can build intelligent applications with deep learning.
